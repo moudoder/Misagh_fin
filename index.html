@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Misagh</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<!-- title icon-->
+	<link rel="shortcut icon" type="image/x-icon" href="Favicon.ico">
+	<!-- libs css-->
+	<link rel="stylesheet" href="css/libs.min.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="header container">
+	<div class="row flex-a">
+		<a href="/" class="logo">
+			<img src="img/logo.png" alt="">
+		</a>
+		<ul class="header-list flex-a">
+			<li><a href="#welcom" class="scroll">О нас</a></li>
+			<li><a href="#education" class="scroll">О северном Кипрe</a></li>
+			<li><a href="#catalog" class="scroll">Каталог недвижимости</a></li>
+			<li><a href="#footer" class="scroll">Контакты</a></li>
+		</ul>
+		<div class="header-write flex-a">
+			<strong>Пишите:</strong>
+			<a href="https://api.whatsapp.com/send?phone=905391086000" class="soc-icon" target="_blank">
+				<img src="img/whatsapp.svg" alt="">
+			</a>
+			<a href="https://msng.link/o/?905391086000=vi" class="soc-icon" target="_blank">
+				<img src="img/viber.svg" alt="">
+			</a>
+			<a href="https://t.me/mhomes_ru" class="soc-icon" target="_blank">
+				<img src="img/tg.svg" alt="">
+			</a>
+		</div>
+		<div href="#" class="burger-menu">
+			<img src="img/burger.svg" alt="">
+			<div class="menu-modal">
+				<a href="#offer" class="menu-modal__item scroll">
+					Актуальные предложения
+				</a>
+				<a href="#process" class="menu-modal__item scroll">
+					Процесс покупки недвижимости
+				</a>
+				<a href="#questions" class="menu-modal__item scroll">
+					Часто задаваемые вопросы
+				</a>
+			</div>
+		</div>                      
+	</div>
+</header>
+<section class="first-screen">
+	<div class="first-screen-slider section-bg">
+		<picture>
+			<source srcset="/img/first-screen-mob.jpg" media="(max-width: 497px)">
+			<source srcset="/img/header-bg-tablet.jpg" media="(max-width: 1200px)">
+			<img src="img/header-bg.jpg" alt="">
+		</picture>
+		<picture class="slide-dark">
+			<source srcset="/img/first-screen-mob.jpg" media="(max-width: 497px)">
+			<source srcset="/img/header-bg-tablet.jpg" media="(max-width: 1200px)">
+			<img src="img/header-bg-dark.jpg" alt="">
+		</picture>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="first-screen-content">
+				<h1 class="wow fadeInLeft">
+					Misagh Homes - <strong>продажа<br class="mob-true"> жилой и коммерческой<br class="mob-true"> недвижимости </strong>
+					<span>от застройщика</span><br class="mob-true">
+					<strong>на Северном Кипре  </strong>
+				</h1>
+				<div class="first-screen-form">
+					<h3 class="form-title">
+						Поможем подобрать вам <strong>недвижимость в 2 клика</strong>
+					</h3>
+					<div class="flex-a form-row">
+						<input type="text" placeholder="Введите ваш телефон" class="phone">
+						<button class="btn">Получить консультацию</button>
+					</div>
+					<div class="flex-e">
+						<div class="politc">
+							<input type="checkbox" id="checkbox-input" class="chekbox-input" checked>
+							<label for="checkbox-input">
+								Нажимая на кнопку, вы соглашаетесь <br>
+								с условиями <a href="#">Политики конфиденциальности</a>
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="first-screen-benefits">
+				<div class="benefits-block benefits-block-1">
+					<h3 class="benefits-block__title">
+						Сотрудничество
+					</h3>
+					<p class="benefits-block__text">
+						Мы партнеры всех строительных компаний на Северном Кипре
+					</p>
+					<a href="#" class="more-block">
+						Ознакомиться
+						подробнее
+					</a>
+					<picture class="benefits-img">
+						<source srcset="/img/benefits-1-mobile.png" media="(max-width: 497px)">
+						<source srcset="/img/benefits-1-tablet.png" media="(max-width: 1200px)">
+						<img src="img/benefits-1.png" alt="">
+					</picture>
+				</div>
+				<div class="benefits-block benefits-block-2">
+					<h3 class="benefits-block__title">
+						Misagh Homes №1
+					</h3>
+					<p class="benefits-block__text">
+						Одна из лидирующих компаний по продаже недвижимости
+					</p>
+					<a href="#" class="more-block">
+						Ознакомиться
+						подробнее
+					</a>
+					<picture class="benefits-img">
+						<source srcset="/img/benefits-3-mobile.png" media="(max-width: 497px)">
+						<source srcset="/img/benefits-3-tablet.png" media="(max-width: 1200px)">
+						<img src="img/benefits-2.png" alt="">
+					</picture>
+				</div>
+				<div class="benefits-block benefits-block-3">
+					<h3 class="benefits-block__title">
+						Нам доверяют
+					</h3>
+					<p class="benefits-block__text">
+						Более 3х лет на<br> рынке недвижимости
+						Северного Кипра
+					</p>
+					<a href="#" class="more-block">
+						Ознакомиться
+						подробнее
+					</a>
+					<picture class="benefits-img">
+						<source srcset="/img/benefits-2-mobile.png" media="(max-width: 497px)">
+						<source srcset="/img/benefits-2-tablet.png" media="(max-width: 1200px)">
+						<img src="img/benefits-3.png" alt="">
+					</picture>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="offer" id="offer">
+	<div class="offer-book">
+		<picture>
+			<source srcset="/img/offer-book-mob.png" media="(max-width: 497px)">
+			<source srcset="/img/offer-book-tablet.png" media="(max-width: 1200px)">
+			<img src="img/offer-book.png" alt="">
+		</picture>
+	</div>
+	<div class="container">
+		<h2 class="offer-title flex-a">
+			Горячее предложение!
+			<span class="offer-span">
+				Инвестируйте в ваше будущее уже сейчас
+			</span>
+		</h2>
+		<div class="offer-row row">
+			<span class="offer-hit">
+				ХИТ
+			</span>
+			<div class="offer-description">
+				<p>
+					<strong>Зарабатывай с новым инвестиционным проектом, которому нет аналогов,</strong> приобретая апартаменты в отеле в самом популярном месте Северного Кипра на берегу пляжа Long Beach.
+				</p>
+				<p>
+					<strong>Проект рассчитан минимум на 10 лет с гарантированным доходом и возможностью пролонгации с минимальным вложением - от $ 135,000 US.</strong>
+				</p>
+			</div>
+			<div class="offer-options wow fadeInRight">
+				<div class="offer-option">
+					<strong>STD: $127,000 + 5,250€ </strong>
+					за комплект мебели
+				</div>
+				<div class="offer-option">
+					<strong>1+1: $242,000 + 13,000€ </strong>
+					за комплект мебели
+				</div>
+				<div class="offer-option">
+					<strong>2+1: $375,000 + 17,500€</strong>
+					за комплект мебели
+				</div>
+				<div class="offer-option">
+					<strong>2+1 PH: $740,000 + 32,000€</strong>
+					за комплект мебели
+				</div>
+			</div>
+		</div>
+		<div class="offer-gallery flex-a wow fadeInLeft">
+			<div class="offer-gallery__item photo-bg" style="background-image: url('img/offer-gallery-2.jpg');"></div>
+			<div class="offer-gallery__item photo-bg" style="background-image: url('img/offer-gallery-1.jpg');"></div>
+		</div>
+	</div>
+</section>
+<section class="welcom" id="welcom">
+	<picture class="section-bg">
+		<source srcset="/" media="(max-width: 497px)">
+		<source srcset="/" media="(max-width: 1200px)">
+		<img src="img/welcom-bg.jpg" alt="">
+	</picture>
+	<div class="container">
+		<h2 class="section-title">
+			Добро пожаловать в <strong>Misagh Homes!</strong>
+			<span class="welcom-span">
+				<img src="img/logo-small.png" alt="">
+			</span>
+		</h2>
+		<div class="welcom-about">
+			<p>
+				Мы - одна из лидирующих компаний по продаже недвижимости и сотрудничаем со всеми строительными компаниями Северного Кипра. <br class="tablet-true">
+				За три года нашей работы нашими клиентами стали сотни счастливых обладателей объектов жилой и коммерческой недвижимости на солнечном побережье Средиземного моря.
+			</p>
+			<picture class="welcom-about__img">
+				<source srcset="/img/welcom-img-mobile.png" media="(max-width: 497px)">
+				<source srcset="/img/welcom-img-tablet.png" media="(max-width: 1200px)">
+				<img src="img/welcom-img.png" alt="">
+			</picture>
+		</div>
+		<div class="welcom-row row">
+			<div class="welcom-block wow fadeInUp" data-wow-delay="0.25s">
+				<p>
+					Наша команда - это профессиональные архитекторы, дизайнеры, инженеры и эксперты по недвижимости, готовые <strong>предоставить вам полную поддержку при покупке недвижимости от ознакомительного тура <br>до регистрации объекта и получения ВНЖ. </strong>
+				</p>
+				<picture class="welcom-block__bg">
+					<source srcset="/img/welcom-block-mobile-1.png" media="(max-width: 497px)">
+					<source srcset="/img/welcom-block-bg-tablet-1.png" media="(max-width: 1200px)">
+					<img src="img/welcom-block-bg-1.jpg" alt="">
+				</picture>
+			</div>
+			<div class="welcom-block wow fadeInUp" data-wow-delay="0.50s">
+				<p>
+					<strong>Студии, квартиры, пентхаусы, дома,<br> виллы <br class="tablet-true">и коммерческая недвижимость в любом регионе Северного Кипра и на любой бюджет</strong> - это то, что приобретают наши клиенты.
+				</p>
+				<picture class="welcom-block__bg">
+					<source srcset="/img/welcom-block-mobile-2.png" media="(max-width: 497px)">
+					<source srcset="/img/welcom-block-bg-tablet-2.png" media="(max-width: 1200px)">
+					<img src="img/welcom-block-bg-2.jpg" alt="">
+				</picture>
+			</div>
+			<div class="welcom-block wow fadeInUp" data-wow-delay="0.75s">
+				<p>
+					Компания Misagh <br> Homes уже насчитывает 5 филиалов: три <br>филиала в Иране и два филиала на Северном Кипре. <br> <br class="tablet-true">
+					<strong>Мы сотрудничаем с лучшими юристами и консультантами, говорящими на<br> русском, английском, персидском и турецком языках.</strong>
+				</p>
+				<picture class="welcom-block__bg">
+					<source srcset="/img/welcom-block-mobile-3.png" media="(max-width: 497px)">
+					<source srcset="/img/welcom-block-bg-tablet-3.png" media="(max-width: 1200px)">
+					<img src="img/welcom-block-bg-3.jpg" alt="">
+				</picture>
+			</div>
+			<div class="welcom-block wow fadeInUp" data-wow-delay="1s">
+				<p>
+					Отдел продаж Misagh Homes, в состав которого входят русский, иранский, турецкий и европейский отделы, подберет для вас лучшие проекты на Северном Кипре и <strong>сделает процесс покупки легким и безопасным с юридической стороны, потому что для нас важно заслужить ваше доверие.</strong>
+				</p>
+				<picture class="welcom-block__bg">
+					<source srcset="/img/welcom-block-mobile-4.png" media="(max-width: 497px)">
+					<source srcset="/img/welcom-block-bg-tablet-4.png" media="(max-width: 1200px)">
+					<img src="img/welcom-block-bg-4.jpg" alt="">
+				</picture>
+			</div>
+		</div>
+		<div class="welcom-bottom row">
+			<div class="first-screen-form">
+				<h3 class="form-title">
+					Свяжитесь с нами и <strong>мы поможем вам воплотить вашу мечту <br>
+					 о доме в самом сердце Средиземноморья в реальность!</strong>
+				</h3>
+				<div class="flex-a form-row">
+					<input type="text" placeholder="Введите ваш телефон" class="phone">
+					<button class="btn">Получить консультацию</button>
+				</div>
+				<div class="flex-e">
+					<div class="politc">
+						<input type="checkbox" id="checkbox-input2" class="chekbox-input" checked>
+						<label for="checkbox-input2">
+							Нажимая на кнопку, вы соглашаетесь <br>
+							с условиями <a href="#">Политики конфиденциальности</a>
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="welcom-phone">
+				<img src="img/welcom-phone.png" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+<section class="catalog" id="catalog">
+	<div class="container">
+		<h2 class="section-title">
+			Каталог недвижимости 
+		</h2>
+		<h3 class="catalog-subtitle">
+			Поможем подобрать вам <strong>недвижимость по указанным параметрам</strong>
+		</h3>
+		<div class="catalog-options wow fadeInUp">
+			<div class="catalog-options-line ">
+				<div class="catalog-option">
+					<div class="catalog-option__text">
+						Тип недвижимости <strong>любой тип</strong>
+						<div class="catalog-modal">
+							<a href="#" class="catalog-modal__item active">
+								Любой тип
+							</a>
+							<a href="#" class="catalog-modal__item">
+								Апартаменты
+							</a>
+							<a href="#" class="catalog-modal__item">
+								Вилла
+							</a>
+							<a href="#" class="catalog-modal__item">
+								Пентхаус
+							</a>
+							<a href="#" class="catalog-modal__item">
+								Дуплекс
+							</a>
+							<a href="#" class="catalog-modal__item">
+								Бунгало
+							</a>
+							<a href="#" class="catalog-modal__item">
+								Коммерческая недвижимость
+							</a>
+							<a href="#" class="catalog-modal__item">
+								Инвестиционный проект
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="catalog-option">
+					<div class="catalog-option__text">Количество жилых комнат <strong>0+1 (студия)</strong>
+						<div class="catalog-modal catalog-modal-center">
+							<a href="#" class="catalog-modal__item active">
+								0+1 (студия)
+							</a>
+							<a href="#" class="catalog-modal__item">
+								1+1
+							</a>
+							<a href="#" class="catalog-modal__item">
+								2+1
+							</a>
+							<a href="#" class="catalog-modal__item">
+								3+1
+							</a>
+							<a href="#" class="catalog-modal__item">
+								4+1
+							</a>
+							<a href="#" class="catalog-modal__item">
+								5+1
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="catalog-option">
+					<div class="catalog-option__text">
+						Бюджет <strong>любой</strong>
+						<div class="catalog-modal catalog-modal-range range-1">
+							<div class="range_container">
+							    <div class="sliders_control">
+							        <input id="fromSlider" type="range" value="0" min="0" max="5000000"/>
+							        <input id="toSlider" type="range" value="5000000" min="0" max="5000000"/>
+							    </div>
+							    <div class="form_control">
+							        <div class="range-item range-min">
+							        	<input class="form_control_container__time__input" type="number"  id="fromInput" value="0" min="0" max="5000000"/> £
+							        </div>
+							        <div class="range-item range-max">
+							        	<input class="form_control_container__time__input" type="number"  id="toInput" value="5000000" min="0" max="5000000"/> £
+							        </div>
+							    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="catalog-options-line catalog-options-line--small">
+				<div class="catalog-option">
+					<div class="catalog-option__text">
+						Общая площадь <strong>любая</strong>
+						<div class="catalog-modal catalog-modal-range range-2">
+							<div class="range_container">
+							    <div class="sliders_control">
+							        <input id="fromSlider2" type="range" value="0" min="0" max="1000"/>
+							        <input id="toSlider2" type="range" value="1000" min="0" max="1000"/>
+							    </div>
+							    <div class="form_control">
+							        <div class="range-item range-min">
+							        	<input class="form_control_container__time__input" type="number"  id="fromInput2" value="0" min="0" max="1000"/> м2
+							        </div>
+							        <div class="range-item range-max">
+							        	<input class="form_control_container__time__input" type="number"  id="toInput2" value="1000" min="0" max="1000"/> м2
+							        </div>
+							    </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="catalog-option">
+					<div class="catalog-option__text">
+						Регион <strong>любой</strong>
+						<div class="catalog-modal">
+							<a href="#" class="catalog-modal__item active">
+								Любой
+							</a>
+							<a href="#" class="catalog-modal__item">
+								Кирения
+							</a>
+							<a href="#" class="catalog-modal__item">
+								Лефкоша
+							</a>
+							<a href="#" class="catalog-modal__item">
+								Фамагуста
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="catalog-option">
+					<div class="catalog-option__text">
+						<strong>Балкон</strong>
+						<div class="catalog-modal">
+							<a href="#" class="catalog-modal__item active">
+								Балкон
+							</a>
+							<a href="#" class="catalog-modal__item">
+								Терасса
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="catalog-option catalog-option-radio-wrap">
+					<input type="radio" name="catalog-type" id="option-radio-1" checked class="catalog-option-radio">
+					<label for="option-radio-1" class="catalog-option__text">Бассейн</label>
+				</div>
+				<div class="catalog-option catalog-option-radio-wrap">
+					<input type="radio" name="catalog-type" id="option-radio-2" class="catalog-option-radio">
+					<label for="option-radio-2" class="catalog-option__text">Парковка</label>
+				</div>
+			</div>
+		</div>
+		<div class="catalog-row row">
+			<div class="hits-block wow fadeInUp">
+				<div class="catalog-block-wrapper">
+					<div class="hits-name">
+						<span>Вилла</span>
+					</div>
+					<div class="hits-zoom">
+						<img src="img/zoom-icon.svg" alt="">
+					</div>
+					<div class="catalog-block-arrows">
+						<a href="#" class="catalog-block-arrow catalog-block-arrow__prev">
+							<img src="img/catalog-block-arrow.svg" alt="">
+						</a>
+						<a href="#" class="catalog-block-arrow catalog-block-arrow__next">
+							<img src="img/catalog-block-arrow.svg" alt="">
+						</a>	
+					</div>
+					<div class="catalog-block-slider">
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+					</div>
+				</div>
+				
+				<div class="hit-information flex-a">
+					<div class="hit-info">
+						<img src="img/price-icon.svg" alt="">Количество комнат: <strong>4+1</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/area-icon.svg" alt="">Площадь: <strong>326 м2</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-4.svg" alt="">Балкон / терраса: <strong>Есть</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-5.svg" alt="">Бассейн: <strong>Есть</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-6.svg" alt="">Парковка: <strong>Есть</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-7.svg" alt="">Цена: <strong>360,000 £</strong>
+					</div>
+				</div>
+
+				<div class="flex-a form-row">
+					<input type="text" placeholder="Введите ваш телефон" class="phone">
+					<button class="btn">Получить консультацию</button>
+				</div>
+			</div>
+			<div class="hits-block wow fadeInUp">
+				<div class="catalog-block-wrapper">
+					<div class="hits-name">
+						<span>Вилла</span>
+					</div>
+					<div class="hits-zoom">
+						<img src="img/zoom-icon.svg" alt="">
+					</div>
+					<div class="catalog-block-arrows">
+						<a href="#" class="catalog-block-arrow catalog-block-arrow__prev">
+							<img src="img/catalog-block-arrow.svg" alt="">
+						</a>
+						<a href="#" class="catalog-block-arrow catalog-block-arrow__next">
+							<img src="img/catalog-block-arrow.svg" alt="">
+						</a>	
+					</div>
+					<div class="catalog-block-slider">
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+					</div>
+				</div>
+				
+				<div class="hit-information flex-a">
+					<div class="hit-info">
+						<img src="img/price-icon.svg" alt="">Количество комнат: <strong>4+1</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/area-icon.svg" alt="">Площадь: <strong>326 м2</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-4.svg" alt="">Балкон / терраса: <strong>Есть</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-5.svg" alt="">Бассейн: <strong>Есть</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-6.svg" alt="">Парковка: <strong>Есть</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-7.svg" alt="">Цена: <strong>360,000 £</strong>
+					</div>
+				</div>
+
+				<div class="flex-a form-row">
+					<input type="text" placeholder="Введите ваш телефон" class="phone">
+					<button class="btn">Получить консультацию</button>
+				</div>
+			</div>
+			<div class="hits-block wow fadeInUp">
+				<div class="catalog-block-wrapper">
+					<div class="hits-name">
+						<span>Вилла</span>
+					</div>
+					<div class="hits-zoom">
+						<img src="img/zoom-icon.svg" alt="">
+					</div>
+					<div class="catalog-block-arrows">
+						<a href="#" class="catalog-block-arrow catalog-block-arrow__prev">
+							<img src="img/catalog-block-arrow.svg" alt="">
+						</a>
+						<a href="#" class="catalog-block-arrow catalog-block-arrow__next">
+							<img src="img/catalog-block-arrow.svg" alt="">
+						</a>	
+					</div>
+					<div class="catalog-block-slider">
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+					</div>
+				</div>
+				
+				<div class="hit-information flex-a">
+					<div class="hit-info">
+						<img src="img/price-icon.svg" alt="">Количество комнат: <strong>4+1</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/area-icon.svg" alt="">Площадь: <strong>326 м2</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-4.svg" alt="">Балкон / терраса: <strong>Есть</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-5.svg" alt="">Бассейн: <strong>Есть</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-6.svg" alt="">Парковка: <strong>Есть</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-7.svg" alt="">Цена: <strong>360,000 £</strong>
+					</div>
+				</div>
+
+				<div class="flex-a form-row">
+					<input type="text" placeholder="Введите ваш телефон" class="phone">
+					<button class="btn">Получить консультацию</button>
+				</div>
+			</div>
+			<div class="hits-block wow fadeInUp">
+				<div class="catalog-block-wrapper">
+					<div class="hits-name">
+						<span>Вилла</span>
+					</div>
+					<div class="hits-zoom">
+						<img src="img/zoom-icon.svg" alt="">
+					</div>
+					<div class="catalog-block-arrows">
+						<a href="#" class="catalog-block-arrow catalog-block-arrow__prev">
+							<img src="img/catalog-block-arrow.svg" alt="">
+						</a>
+						<a href="#" class="catalog-block-arrow catalog-block-arrow__next">
+							<img src="img/catalog-block-arrow.svg" alt="">
+						</a>	
+					</div>
+					<div class="catalog-block-slider">
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+						<a href="img/catalog-block.jpg" data-fancybox="gallery-1" class="photo-bg" style="background-image: url('img/catalog-block.jpg');"></a>
+					</div>
+				</div>
+				
+				<div class="hit-information flex-a">
+					<div class="hit-info">
+						<img src="img/price-icon.svg" alt="">Количество комнат: <strong>4+1</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/area-icon.svg" alt="">Площадь: <strong>326 м2</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-4.svg" alt="">Балкон / терраса: <strong>Есть</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-5.svg" alt="">Бассейн: <strong>Есть</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-6.svg" alt="">Парковка: <strong>Есть</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/catalog-icon-7.svg" alt="">Цена: <strong>360,000 £</strong>
+					</div>
+				</div>
+
+				<div class="flex-a form-row">
+					<input type="text" placeholder="Введите ваш телефон" class="phone">
+					<button class="btn">Получить консультацию</button>
+				</div>
+			</div>
+		</div>
+		<div class="flex-c">
+			<a href="#" class="catalog-more flex-a">
+				<img src="img/more-btn.svg" alt="">
+				Показать ещё
+			</a>
+		</div>
+		
+	</div>
+</section>
+<section class="process" id="process">
+	<picture class="section-bg">
+		<source srcset="/img/process-bg-mobile.jpg" media="(max-width: 497px)">
+		<source srcset="/img/process-bg-tablet.png" media="(max-width: 1200px)">
+		<img src="img/process-bg.jpg" alt="">
+	</picture>
+	<div class="container">
+		<h2 class="section-title">
+			Процесс покупки <br class="tablet-true">недвижимости<br> с «Misagh Homes» <span class="process-span">8 основных этапов</span>
+		</h2>
+		<div class="process-row row">
+			<picture class="process-road">
+				<source srcset="/img/process-road-mobile.svg" media="(max-width: 497px)">
+				<source srcset="/img/process-road-tablet.svg" media="(max-width: 1200px)">
+				<img src="img/process-road.svg" alt="">
+			</picture>
+			<div class="process-wrapper wow fadeInUp">
+				<div class="process-top flex-a">
+					<div class="process-square">
+						<img src="img/process-1.png" alt="">
+					</div>
+					<p class="process-top__title">
+						<strong>Этап № 1</strong> Личная консультация 
+					</p>
+				</div>
+				<p class="process-text">
+					Мы расскажем вам <strong>о всех нюансах приобретения недвижимости и получения ВНЖ на Северном Кипре. </strong>
+				</p>
+			</div>
+			<div class="process-wrapper wow fadeInUp">
+				<div class="process-top flex-a">
+					<div class="process-square">
+						<img src="img/process-2.png" alt="">
+					</div>
+					<p class="process-top__title">
+						<strong>Этап № 2</strong> Подбор вариантов
+						
+					</p>
+				</div>
+				<p class="process-text">
+					<strong>Мы подберем для вас портфолио объектов</strong> соответствующих вашим требованиям и предпочтениям
+				</p>
+			</div>
+			<div class="process-wrapper wow fadeInUp">
+				<div class="process-top flex-a">
+					<div class="process-square">
+						<img src="img/process-3.png" alt="">
+					</div>
+					<p class="process-top__title">
+						<strong>Этап № 3</strong> Смотровой тур на Кипр
+					</p>
+				</div>
+				<p class="process-text">
+					<strong>Организуем бесплатный ознакомительный тур и покажем все интересующие вас объекты </strong>чтобы более точно определиться с покупкой. 
+				</p>
+			</div>
+			<div class="process-wrapper wow fadeInUp">
+				<div class="process-top flex-a">
+					<div class="process-square">
+						<img src="img/process-4.png" alt="">
+					</div>
+					<p class="process-top__title">
+						<strong>Этап № 6</strong> Завершение сделки 
+					</p>
+				</div>
+				<p class="process-text process-text-big">
+					После подписания договора вы вносите первый платеж на расчётный счет застройщика или владельца объекта недвижимости, в среднем это 30% от общей стоимости объекта. <strong>Многие компании предоставляют беспроцентную рассрочку на срок от года до 7 лет.</strong> 
+				</p>
+			</div>
+			<div class="process-wrapper wow fadeInUp">
+				<div class="process-top flex-a">
+					<div class="process-square">
+						<img src="img/process-5.png" alt="">
+					</div>
+					<p class="process-top__title">
+						<strong>Этап № 5 </strong>
+						Подготовка документов
+					</p>
+				</div>
+				<p class="process-text process-text-big">
+					<strong>Юридический отдел «Misagh <br> Homes» оформит договор на <br>русском и английском языках<br> и подготовит его к<br> подписанию,</strong> которое может <br>быть осуществлено<br> дистанционно для вашего <br>удобства. 
+				</p>
+			</div>
+			<div class="process-wrapper wow fadeInUp">
+				<div class="process-top flex-a">
+					<div class="process-square">
+						<img src="img/process-6.png" alt="">
+					</div>
+					<p class="process-top__title">
+						<strong>Этап № 4</strong>
+						Проверка объекта
+					</p>
+				</div>
+				<p class="process-text process-text-big">
+					<strong>Наша команда проверит объект на чистоту и соответствие всем требованиям, организуем встречу с владельцем объекта недвижимости или компанией застройщиком</strong> для согласования цены и внесения депозита.
+				</p>
+			</div>
+			<div class="flex-c process-line">
+				<div class="process-wrapper process-wrapper-last wow fadeInUp">
+					<div class="process-top flex-a">
+						<div class="process-square">
+							<img src="img/process-7.png" alt="">
+						</div>
+						<p class="process-top__title">
+							<strong>Этап № 7</strong> Передача ключей 
+						</p>
+					</div>
+					<p class="process-text">
+						<strong>После получения ключей Вы становитесь собственником своего дома или квартиры у моря, что подтверждается <br>зарегистрированным в земельном кадастре договором.</strong> При условии,<br> что все обязательства по договору выполнены, титул на недвижимость можно переводить на Ваше имя. 
+					</p>
+				</div>
+				<div class="process-wrapper process-wrapper-last wow fadeInUp">
+					<div class="process-top flex-a">
+						<div class="process-square">
+							<img src="img/process-8.png" alt="">
+						</div>
+						<p class="process-top__title">
+							<strong>Этап № 8</strong> Конечная стадия
+						</p>
+					</div>
+					<p class="process-text">
+						После внесения всех платежей<br> и уплаты налогов <strong>сделка по приобретению считается завершенной и наступает этап послепродажного сервиса. </strong>
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</section>
+<section class="also" id="also">
+	<a href="#" class="wow fadeInLeft also-block-photo" style="background-image: url('img/also-photo.jpg');">
+		
+	</a>
+	<div class="container">
+		<h2 class="section-title">
+			Мы так же:
+		</h2>
+		
+		<div class="also-blocks flex-a">
+			<div class="also-left">
+				<div class="also-block also-block-1">
+					<span class="also-block__check">
+						<img src="img/check-also.svg" alt="">
+					</span>
+					<p class="also-block__text">
+						Оформим <strong>ВНЖ на всех членов семьи</strong>
+					</p>
+				</div>
+				<div class="also-block also-block-2">
+					<span class="also-block__check">
+						<img src="img/check-also.svg" alt="">
+					</span>
+					<p class="also-block__text">
+						Организуем сдачу вашего дома или квартиры <strong>в аренду. </strong>
+					</p>
+				</div>
+				<div class="also-block also-block-3">
+					<span class="also-block__check">
+						<img src="img/check-also.svg" alt="">
+					</span>
+					<p class="also-block__text">
+						<strong>Окажем помощь<br> в обслуживании вашего объекта</strong> недвижимости и многое другое! 
+					</p>
+				</div>
+			</div>
+			<div class="also-right">
+				<div class="also-block also-block-4">
+					<span class="also-block__check">
+						<img src="img/check-also.svg" alt="">
+					</span>
+					<p class="also-block__text">
+						Поможем вам с <strong>выбором и приобретением мебели, техники, автотранспорта 
+						и много другого.</strong>
+					</p>
+				</div>
+				<div class="also-block also-block-5">
+					<span class="also-block__check">
+						<img src="img/check-also.svg" alt="">
+					</span>
+					<p class="also-block__text">
+						<strong>Поможем с поступлением</strong> в ВУЗы Северного Кипра, школы и детсады.  
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="also-video wow fadeInRight" style="background-image: url('img/also-video-bg.jpg');">
+			<a href="test.html" class="also-video__btn">
+				<span class="also-video__btn__inner">
+					<img src="img/play-arrow.svg" alt="">
+				</span>
+			</a>
+		</div>
+	</div>
+</section>
+<section class="hits" id="hits">
+	<div class="container">
+		<div class="row flex-a hits-top">
+			<h2 class="section-title">
+				<strong>Хиты продаж </strong> 
+				<span class="hits-icon">
+					<img src="img/hit-icon.png" alt="">
+				</span>
+				<br>        
+				среди наших клиентов
+			</h2>
+			<a href="#" class="more-block">
+				Ознакомиться
+				подробнее
+			</a>
+		</div>
+		<div class="hits-row row">
+			<div class="hits-block wow fadeInUp">
+				<div class="photo-bg" style="background-image: url('img/hit-1.jpg');">
+					<div class="hits-name">
+						<span>Квартира 3+1</span>
+					</div>
+				</div>
+				<div class="hit-information flex-a">
+					<div class="hit-info">
+						<img src="img/price-icon.svg" alt="">Стоимость: <strong>209,000 £</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/area-icon.svg" alt="">Площадь: <strong>173 м2</strong>
+					</div>
+				</div>
+				<p class="text">
+					Квартира в комплексе с развитой инфраструктурой в самом популярном районе Северного Кипра на берегу пляжа Long Beach.
+				</p>
+			</div>
+			<div class="hits-block wow fadeInUp">
+				<div class="photo-bg" style="background-image: url('img/hit-1.jpg');">
+					<div class="hits-name">
+						<span>Квартира 3+1</span>
+					</div>
+				</div>
+				<div class="hit-information flex-a">
+					<div class="hit-info">
+						<img src="img/price-icon.svg" alt="">Стоимость: <strong>209,000 £</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/area-icon.svg" alt="">Площадь: <strong>173 м2</strong>
+					</div>
+				</div>
+				<p class="text">
+					Квартира в комплексе с развитой инфраструктурой в самом популярном районе Северного Кипра на берегу пляжа Long Beach.
+				</p>
+			</div>
+			<div class="hits-block wow fadeInUp">
+				<div class="photo-bg" style="background-image: url('img/hit-1.jpg');">
+					<div class="hits-name">
+						<span>Квартира 3+1</span>
+					</div>
+				</div>
+				<div class="hit-information flex-a">
+					<div class="hit-info">
+						<img src="img/price-icon.svg" alt="">Стоимость: <strong>209,000 £</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/area-icon.svg" alt="">Площадь: <strong>173 м2</strong>
+					</div>
+				</div>
+				<p class="text">
+					Квартира в комплексе с развитой инфраструктурой в самом популярном районе Северного Кипра на берегу пляжа Long Beach.
+				</p>
+			</div>
+			<div class="hits-block wow fadeInUp">
+				<div class="photo-bg" style="background-image: url('img/hit-1.jpg');">
+					<div class="hits-name">
+						<span>Квартира 3+1</span>
+					</div>
+				</div>
+				<div class="hit-information flex-a">
+					<div class="hit-info">
+						<img src="img/price-icon.svg" alt="">Стоимость: <strong>209,000 £</strong>
+					</div>
+					<div class="hit-info">
+						<img src="img/area-icon.svg" alt="">Площадь: <strong>173 м2</strong>
+					</div>
+				</div>
+				<p class="text">
+					Квартира в комплексе с развитой инфраструктурой в самом популярном районе Северного Кипра на берегу пляжа Long Beach.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="education" id="education">
+	<div class="white-wrapper">
+		<div class="container">
+			<div class="row flex-a">
+				<h2 class="section-title">
+					О Северном Кипре и получение <br>
+					образования на Северном Кипре
+				</h2>
+				<img src="img/logo-opacity.png" alt="" class="logo-opacity">
+			</div>
+			<div class="row education-row">
+				<picture class="education-people wow fadeInRight">
+					<source srcset="/img/man-mobile.png" media="(max-width: 497px)">
+					<source srcset="/img/man-tablet.png" media="(max-width: 1200px)">
+					<img src="img/man.png" alt="">
+				</picture>
+				<div class="education-left">
+					<h3 class="education-subtitle">
+						Многие иностранцы приезжая на Северный Кипр <strong>остаются здесь жить.</strong> 
+					</h3>
+					<div class="education-story flex-a">
+						<p class="education-story__text">
+							И мы хотим рассказать, <strong>чем же этот остров Средиземноморья привлекает все больше и больше людей со всех уголков мира каждый год.</strong>
+						</p>
+						<div class="education-story-flag">
+							<img src="img/flag.png" alt="">
+						</div>
+					</div>
+					<div class="education-blocks row">
+						<div class="education-block education-block-1">
+							<img src="img/education-block-1.png" alt="">
+							<div class="education-block-text">
+								<p>
+									Остров географически расположен <br>
+									на европейском континенте и известен как третий по величине остров в мире.
+								</p>
+								<p>
+									Жители Северного Кипра говорят <br>на турецком и английском языках. Население этой страны составляет 750 тыс. человек.
+								</p>
+							</div>
+						</div>
+						<div class="education-block education-block-2">
+							<img src="img/education-block-2.png" alt="">
+							<div class="education-block-text">
+								<p>
+									Если вы решили добраться до северной части Кипра на пароме из Турции, наградой станет явление острова во<br> всей его красе: зеленые горы, белые <br>виллы, дорогие яхты на причалах.
+								</p>
+								<p>
+									Уже в порту Кирении начинается неспешная жизнь Средиземноморья, где запах молотого кофе смешивается с ароматами выпечки, а пожилые завсегдатаи сидят за столиками, попивая кофе по-турецки с нескончаемыми беседами обо всем на свете.
+								</p>
+							</div>
+						</div>
+						<div class="education-block education-block-3">
+							<img src="img/education-block-3.png" alt="">
+							<div class="education-block-text">
+								<p>
+									Климат Кипра мягкий и имеет в общей сложности 330 солнечных дней.
+								</p>
+								<p>
+									Спокойные и красивые пляжи Северного Кипра всегда привлекали внимание иностранных туристов, и наличие этих пляжей сделало Кипр одним из мировых туристических центров.
+								</p>
+							</div>
+						</div>
+						<div class="education-block education-block-4">
+							<img src="img/education-block-4.png" alt="">
+							<div class="education-block-text">
+								<p>
+									Подобно всем маленьким странам, Северный Кипр можно объехать за один день, при большом желании охватив три ключевых города – Кирению, столицу Лефкошу и Фамагусту.
+								</p>
+								<p>
+									Но гораздо приятнее составить маршрут и каждое утро выезжать на знакомство с новым местом, после чего еще останется время насладиться пляжным отдыхом на побережье.
+								</p>
+							</div>
+						</div>
+						<div class="education-block education-block-5">
+							<img src="img/education-block-5.png" alt="">
+							<div class="education-block-text">
+								<p>
+									В любом городе маршрутное такси за 20–30 минут доставит вас из центра до одной из деревушек, где сосредоточена курортная жизнь. 
+								</p>
+								<p>
+									Причем это могут быть как роскошные отели, так и уютные гостевые дома, о которых знают только «свои» Небольшой поиск и символический торг обязательно завершатся приемлемым во всех отношениях вариантом.
+								</p>
+							</div>
+						</div>
+						<div class="education-block education-block-6">
+							<img src="img/education-block-6.png" alt="">
+							<div class="education-block-text">
+								<p>
+									Поскольку Кипр ранее был британской колонией, то английский язык, в отличие от той же Турции, здесь вполне прижился. 
+								</p>
+								<p>
+									Как прижились и британские пенсионеры, проводящие на острове по полгода и наслаждающиеся теплым климатом . А также левостороннее движение на дорогах.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="education-description wow fadeInUp">
+					<p>
+					<strong>На Северном Кипре расположено 19 университетов,</strong> многие из которых входят в число лучших и самых престижных университетов мира и имеют хороший международный рейтинг и предоставляют возможность получить степень бакалавра, магистра или доктора по любой интересующей вас специальности.
+					</p>
+					<p>
+						<strong>Каждый университет имеет свой собственный современный кампус с развитой инфраструктурой, транспортным сообщением и всем необходимым для комфортной жизни студентов.</strong>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="discounts">
+		<div class="container">
+			<div class="discounts-quote">
+				<img src="img/discounts-quote-img.svg" alt="">
+				<p>
+					<strong>Почти все университеты предоставляют скидки и стипендии международным студентам из более 100 стран мира,</strong> общее количество которых составляет около 100 тыс. человек и эта цифра с каждым годом стремительно растет.
+				</p>
+			</div>
+			<div class="universities">
+				<picture class="universities-table wow fadeInRight">
+					<source srcset="/img/universities-table-mobile.png" media="(max-width: 497px)">
+					<source srcset="/img/universities-table-tablet.svg" media="(max-width: 1200px)">
+					<img src="img/universities-table.png" alt="">
+				</picture>
+				<h3 class="universities__title">
+					<strong>Самыми большими университетами Северного Кипра</strong> являются:
+				</h3>
+				<div class="row universities-row">
+					<div class="universities-block wow fadeInUp">
+						<div class="photo-bg" style="background-image: url('img/universities-block-1.jpg');"></div>
+						<p>
+							Восточно-средиземноморский университет (EMU)
+						</p>
+					</div>
+					<div class="universities-block wow fadeInUp">
+						<div class="photo-bg" style="background-image: url('img/universities-block-2.jpg');"></div>
+						<p>
+							Международный университет Кипра (CIU)
+						</p>
+					</div>
+					<div class="universities-block wow fadeInUp">
+						<div class="photo-bg" style="background-image: url('img/universities-block-3.jpg');"></div>
+						<p>
+							Американский университет Кирении (GAU)
+						</p>
+					</div>
+					<div class="universities-last">
+						<div class="universities-block wow fadeInUp universities-block-last">
+							<div class="photo-bg" style="background-image: url('img/universities-block-4.jpg');"></div>
+							<p>
+								Ближневосточный<br class="tablet-true"> университет (NEU)
+							</p>
+						</div>
+						<div class="universities-block wow fadeInUp universities-block-last">
+							<div class="photo-bg" style="background-image: url('img/universities-block-5.jpg');"></div>
+							<p>
+								Ближневосточный технический университет (METU)
+							</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="advantage" id="advantage">
+	<div class="container">
+		<div class="row advantage-row">
+			<div class="advantage-form wow fadeInLeft">
+				<h2 class="advantage-form__title">
+					Компания «Misagh Homes» готова предложить вам <strong>информационную поддержку и полное сопровождение в процессе поступления в университеты Северного Кипра бесплатно</strong>
+				</h2>
+				<div class="form-row">
+					<input type="text" placeholder="Введите ваш телефон" class="phone">
+					<button class="btn">Получить консультацию</button>
+				</div>
+				<div class="flex-e">
+					<div class="politc">
+						<input type="checkbox" id="checkbox-input" class="chekbox-input" checked>
+						<label for="checkbox-input">
+							Нажимая на кнопку, вы соглашаетесь <br>
+							с условиями <a href="#">Политики конфиденциальности</a>
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="advantage-content">
+				<div class="advantage-content-line row flex-a">
+					<div class="advantage-content-left">
+						<h2 class="advantage-content__title">
+							<strong>Преимущества образования</strong> на Северном Кипре <strong>для иностранцев:</strong>
+							<img src="img/advantage-langs.png" alt="">
+						</h2>
+					</div>
+					<div class="advantage-content-soc">
+						<img src="img/soc-icons.svg" alt="">
+						<p>
+							За дополнительной информацией <strong>вы можете написать в личном сообщении.</strong>
+						</p>
+					</div>
+				</div>
+				<div class="advantage-benifts row">
+					<div class="advantage-benifts__item">
+						<div class="advantage-benifts__icon">
+							<img src="img/advantage-benifts-1.svg" alt="">
+						</div>
+						<p>
+							Международные стандарты получения высшего образование на английском языке по умеренной цене;
+						</p>
+					</div>
+					<div class="advantage-benifts__item">
+						<div class="advantage-benifts__icon">
+							<img src="img/advantage-benifts-2.svg" alt="">
+						</div>
+						<p>
+							Кипр – безопасный туристический остров,<br> поэтому с проживанием здесь не возникнет никаких проблем;
+						</p>
+					</div>
+					<div class="advantage-benifts__item">
+						<div class="advantage-benifts__icon">
+							<img src="img/advantage-benifts-3.svg" alt="">
+						</div>
+						<p>
+							Дипломы университетов Северного Кипра<br> признаются странами ЕС, США, Канады и др.;
+						</p>
+					</div>
+					<div class="advantage-benifts__item">
+						<div class="advantage-benifts__icon">
+							<img src="img/advantage-benifts-4.svg" alt="">
+						</div>
+						<p>
+							Возможность получения 50%, 75% и 100% грантов на обучение иностранными студентами.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="questions" id="questions">
+	<div class="container">
+		<div class="flex-a questions-line">
+			<h2 class="questions-title">
+				Часто задаваемые вопросы
+			</h2>
+			<span class="questions-subtitle">
+				компании «Misagh Homes» 
+			</span>
+		</div>
+		<div class="questions-row">
+			<div class="questions-block wow fadeInUp">
+				<div class="questions-top flex-a flex-j">
+					<h3>Какая минимальная стоимость приобретаемой недвижимость на <br class="tablet-true">Северном Кипре для получения ВНЖ? </h3>
+					<span class="questions-close">
+						
+					</span>
+				</div>
+				<p class="questions-block-content">
+					На сегодняшний день, минимальная стоимость недвижимости для получения ВНЖ не установлена,<br> а государственные или финансово-кредитные организации не интересуются источником происхождения ваших денежных средств. 
+				</p>
+			</div>
+			<div class="questions-block wow fadeInUp">
+				<div class="questions-top flex-a flex-j">
+					<h3>Могу ли я купить недвижимость <br class="tablet-true">в рассрочку, кредит? </h3>
+					<span class="questions-close">
+						
+					</span>
+				</div>
+				<p class="questions-block-content">
+					Да, большинство компаний предоставляют рассрочку на объекты недвижимости на срок до 7 лет. При желании, вы можете оформить кредит под 9% годовых на срок до 7,5 лет.
+				</p>
+			</div>
+			<div class="questions-block wow fadeInUp">
+				<div class="questions-top flex-a flex-j">
+					<h3>При покупке недвижимости, могу ли я получить гарантии сдачи ее в аренду? </h3>
+					<span class="questions-close">
+						
+					</span>
+				</div>
+				<p class="questions-block-content">
+					Да, в зависимости от выбранного объекта, управляющие компании заключают с вами договор гарантированного дохода от сдачи объекта в аренду. Такие договоры могут заключаться я на срок от одного года до 10 лет.
+				</p>
+			</div>
+			<div class="questions-block wow fadeInUp">
+				<div class="questions-top flex-a flex-j">
+					<h3>Оказываете ли вы помощь <br class="tablet-true">в получении ВНЖ? </h3>
+					<span class="questions-close">
+						
+					</span>
+				</div>
+				<p class="questions-block-content">
+					Да, мы оказываем легальную помощь в получении ВНЖ всем членам семьи наших клиентов. <br>В среднем процесс получения занимает две недели.
+				</p>
+			</div>
+			<div class="questions-block wow fadeInUp">
+				<div class="questions-top flex-a flex-j">
+					<h3>Какими способами можно оплачивать покупку недвижимости на Северном Кипре? </h3>
+					<span class="questions-close">
+						
+					</span>
+				</div>
+				<p class="questions-block-content">
+					Оплатить покупку недвижимости можно наличными, банковским переводом, кредитными или дебетовыми картами, а так же криптовалютой.
+				</p>
+			</div>
+			<div class="questions-block wow fadeInUp">
+				<div class="questions-top flex-a flex-j">
+					<h3>Можно ли оформить сделку удаленно? </h3>
+					<span class="questions-close">
+						
+					</span>
+				</div>
+				<p class="questions-block-content">
+					Да, вы можете не только удаленно ознакомиться с интересующими вас объектами, но и оформить сделку удаленно. Компания Misagh Homes оказывает полную правовую поддержку на всех этапах приобретения недвижимости на Северном Кипре.
+				</p>
+			</div>
+			<div class="questions-block wow fadeInUp">
+				<div class="questions-top flex-a flex-j">
+					<h3>Какой бюджет мне необходимо иметь <br class="tablet-true">для приобретения квартиры на <br class="tablet-true">Северном Кипре? </h3>
+					<span class="questions-close">
+						
+					</span>
+				</div>
+				<p class="questions-block-content">
+					В феврале 2023 год Вам достаточно иметь 40,000 USD в качестве первого взноса для приобретения квартиры-студии в одном из самый популярных районов застройки. Оставшуюся сумму вы сможете оплатить в рассрочку в течении 24-80 месяцев.
+				</p>
+			</div>
+			<div class="questions-block wow fadeInUp">
+				<div class="questions-top flex-a flex-j">
+					<h3>В какое учебное заведение я могу отправить учиться своих детей? </h3>
+					<span class="questions-close">
+						
+					</span>
+				</div>
+				<p class="questions-block-content">
+					На Северном Кипре есть множество государственных и частных учебных заведений. В зависимости от возраста ребенка это может быть детский сад, школа, колледж или университет. Обучение проходит на турецком или английском языках.
+				</p>
+			</div>
+			<div class="questions-block wow fadeInUp">
+				<div class="questions-top flex-a flex-j">
+					<h3>Что такое «Ознакомительный Тур» <br class="tablet-true">и сколько он стоит? </h3>
+					<span class="questions-close">
+						
+					</span>
+				</div>
+				<p class="questions-block-content">
+					Ознакомительный тур - это:<br>
+					3-7 дневный тур на Северный Кипр который включает встречу в аэропорту, трансфер, бесплатное проживание, просмотр юридически проверенных объектов недвижимости (более 300 квартир и вилл на выбор), экскурсии по достопримечательностям Северного Кипра, консультации по приобретению недвижимости, получению ВНЖ, юридическую поддержку сделки и многое другое. <br>
+					Для клиентов Misagh Homes тур бесплатный.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<footer class="footer" id="footer">
+	<div class="container">
+		<div class="row">
+			<a href="/" class="logo">
+				<img src="img/logo.png" alt="">
+			</a>
+			<div class="soc-item">
+				<span class="soc-item__title">
+					Наши социальные сети:
+				</span>
+				<div class="soc-line flex-a">
+					<a href="https://www.instagram.com/misaghhomes.eu (https://www.instagram.com/misaghhomes.eu/)" class="soc-icon" target="_blank">
+						<img src="img/inst.svg" alt="">
+					</a>
+					<a href="https://vk.com/misaghhomes" class="soc-icon" target="_blank">
+						<img src="img/vk.png" alt="">
+					</a>
+					<a href="https://www.youtube.com/@mhomesrus/featured" class="soc-icon" target="_blank">
+						<img src="img/youtube.svg" alt="">
+					</a>
+					<a href="https://www.facebook.com/profile.php?id=100088963682000" class="soc-icon" target="_blank">
+						<img src="img/facebook.svg" alt="">
+					</a>
+					<a href="https://ok.ru/profile/584234772815 (https://ok.ru/feed)" class="soc-icon" target="_blank">
+						<img src="img/classmate.svg" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="soc-item">
+				<span class="soc-item__title">
+					Связаться:
+				</span>
+				<div class="soc-line flex-a">
+					<a href="https://api.whatsapp.com/send?phone=905391086000" class="soc-icon" target="_blank">
+						<img src="img/whatsapp.svg" alt="">
+					</a>
+					<a href="https://msng.link/o/?905391086000=vi" class="soc-icon" target="_blank">
+						<img src="img/viber.svg" alt="">
+					</a>
+					<a href="https://t.me/mhomes_ru" class="soc-icon" target="_blank">
+						<img src="img/tg.svg" alt="">
+					</a>
+				</div>
+			</div>
+			<a href="tel:+905391086000" class="btn-footer">
+				Позвонить нам
+			</a>
+			<div class="footer-info">
+				<a href="#">Политика конфиденциальности</a>
+				<p class="footer-copy ">
+					<strong>Misagh Homes</strong>
+					<span class="copy">
+						©
+					</span>
+					<span> 2023 Все права защищены</span>
+				</p>
+				
+			</div>
+		</div>
+	</div>
+</footer>
+    
+<!-- libs js -->
+<script src="js/libs.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script src="js/range.js"></script>
+<script src="js/range-2.js"></script>
+<script src="js/common.js"></script>
+</body>
+
+</html>
